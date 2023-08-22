@@ -1,8 +1,15 @@
-# React + Vite
+# Netcom KVV GitHub API Web-App (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dies ist eine einfache Webanwendung, die es einem Benutzer ermöglicht, den Benutzernamen eines GitHub-Benutzers einzugeben und alle Details zu seinem Profil anzuzeigen, wie zum Beispiel: Name, Anzahl der öffentlichen Repos, Beschreibung jedes Repos usw.
 
-Currently, two official plugins are available:
+# Install the packages
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm i
+
+# Run the Project
+
+npm run dev
+
+# Build the Project
+
+npm run build
