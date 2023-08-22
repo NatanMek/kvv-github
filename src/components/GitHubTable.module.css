@@ -1,0 +1,14 @@
+.table {
+  animation: fadeInAnimation ease-in 2s;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  to {
+    opacity: 1;
+  }
+}
