@@ -4,8 +4,8 @@ Dies ist eine einfache Webanwendung, die es einem Benutzer ermöglicht, den Benu
 
 # Tech stack
 
-React + Vite
-MUI
+React + Vite\
+MUI\
 GitHub REST API
 
 # Install the packages
