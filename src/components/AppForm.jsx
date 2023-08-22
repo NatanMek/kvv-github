@@ -18,6 +18,7 @@ function AppForm() {
   };
 
   const handleFetchUser = async () => {
+    setError(false);
     setIsLoading(true);
     const response = await fetch(
       `https://api.github.com/users/${username}/repos`
@@ -25,13 +26,13 @@ function AppForm() {
 
     if (!response.ok) {
       setIsLoading(false);
-      throw Error("Couldn't fetch user from GitHub repo.");
+      setError("Couldn't fetch user from GitHub repo.");
     }
 
     const res = await response.json();
 
     if (res.length == 0) {
-      setError(true);
+      setError("No repos finded.");
     }
     setUserinfo(res);
     setUsername("");
@@ -96,7 +97,7 @@ function AppForm() {
             marginTop: "20px",
           }}
         >
-          No repos finded!
+          {error}
         </Typography>
       )}
     </>

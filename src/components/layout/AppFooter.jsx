@@ -13,17 +13,25 @@ function AppFooter() {
       <ul className={classes["footer__items"]}>
         <li>
           <PhoneIcon />
-          <a href="https://netcom-kassel.de/privatkunden/kontakt/">
+          <a
+            href="https://netcom-kassel.de/privatkunden/kontakt/"
+            target="_blank"
+          >
             Contact Us
           </a>
         </li>
         <li>
           <RssFeedIcon />
-          <a href="https://netcom-kassel.de/privatkunden/blog/">Blog</a>
+          <a href="https://netcom-kassel.de/privatkunden/blog/" target="_blank">
+            Blog
+          </a>
         </li>
         <li>
           <ArticleIcon />
-          <a href="https://netcom-kassel.de/privatkunden/newsletter/">
+          <a
+            href="https://netcom-kassel.de/privatkunden/newsletter/"
+            target="_blank"
+          >
             Newsletter
           </a>
         </li>
